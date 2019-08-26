@@ -18,10 +18,28 @@ int main (){
 	
 	if(n1 > n2 && n1 > n3){
 		printf("O numero %d e o maior.\n", n1);
+		if(n2>n3){
+			printf("A ordem e %d, %d, %d\n", n3, n2, n1);
+		} else{
+			printf("A ordem e %d, %d, %d\n", n2, n3, n1);
+		}
+		
 	} else if(n2 > n1 && n2 > n3){
 		printf("O numero %d e o maior.\n", n2);
+		if(n1>n3){
+			printf("A ordem e %d, %d, %d\n", n3, n1, n2);
+		} else{
+			printf("A ordem e %d, %d, %d\n", n1, n3, n2);
+		}
+		
 	} else if(n3 > n1 && n3 > n2){
 		printf("O numero %d e o maior.\n", n3);
+		if(n1>n2){
+			printf("A ordem e %d, %d, %d\n", n2, n1, n3);
+		} else{
+			printf("A ordem e %d, %d, %d\n", n1, n2, n3);
+		}
+		
 	}
 	
 	system("pause");

@@ -36,6 +36,9 @@ int main (){
 			if(saldo<0){
 				printf("Sua conta esta negativa\n");
 			}
+		break;
+		default:
+			printf("Opcao selecionada invalida\n");
 		break;		
 	}
 	
