@@ -45,4 +45,6 @@ int main(){
 		printf("Sua media e: %.2f - Mas voce foi reprovado.", media);
 	}
 	
+	system("pause");
+	
 }
