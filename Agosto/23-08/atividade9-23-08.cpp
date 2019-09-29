@@ -30,6 +30,6 @@ int main(){
 	} else if(conceito >= 85 && conceito <=100){
 		printf(" - Conceito: Otimo\n");
 	}
-	
+    
 	system("pause");	
 }
